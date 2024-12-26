@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!--Coding By CodingNepal - youtube.com/@codingnepal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenite Cafe | Serenite</title>
+
+    <!-- JOSN LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Universitas Yatsi Madani",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Aria Santika No.40A, RT.005/RW.001, Margasari",
+          "addressLocality": "Kec. Karawaci",
+          "addressRegion": "Banten",
+          "postalCode": "15114",
+          "addressCountry": "ID"
+        },
+        "telephone": "+62 21 55726558",
+        "openingHours": "Mo-Sa 08:00-21:40",
+        "alumni": {
+          "@type": "Person",
+          "name": "Suci Marsela",
+          "identifier": "23050028",
+          "affiliation": {
+            "@type": "EducationalOrganization",
+            "name": "Universitas Yatsi Madani"
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Universitas Yatsi Madani"
+          },
+          "knowAbout": "Jaringan Semantik"
+        }
+      }
+    </script>
+
+    <!-- Linking Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- Linking Swipper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar-->
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">Serenite Cafe</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="tittle">Best Coffe</h2>
+            <h3 class="subtitle">Make your day great with our spesial coffe</h3>
+            <p class="description">
+              Welcome to our coffe paradise, where every bean tells a story and
+              every cup sparks joy
+            </p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Order Now</a>
+              <a href="#" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              src="https://img.freepik.com/free-vector/coffee-shop-logo-food-business-template-branding-design-vector-coffee-kind-made-with-love-text_53876-136257.jpg?ga=GA1.1.151621662.1734756861&semt=ais_hybrid"
+              alt="Hero"
+              class="hero-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img
+              src="https://img.freepik.com/free-photo/coffee-food-truck-illustration_1308-171302.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+              alt="About"
+              class="about-image"
+            />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">
+              At Coffe House in Berndorf, Germany, we pride ourselves on being a
+              go-to destination for coffe lovers and conversation seekers alike.
+              We're dedicated to providing an exceptional coffe experience in a
+              cozy and inviting atmosphere, where guests can relax, unwind, and
+              enjoy their time in comfort.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu section -->
+      <section class="menu-section">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/milk-pouring-into-hot-coffee_23-2147834545.jpg?semt=ais_hybrid"
+                alt="Americano Milk"
+                class="menu-image"
+              />
+              <h3 class="name">Americano Milk</h3>
+              <p class="text">
+                Wide range of Steaming coffe milk to make you fresh and light
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/person-serving-cup-coffee_1286-238.jpg?semt=ais_hybrid"
+                alt="Espresso"
+                class="menu-image"
+              />
+              <h3 class="name">Espresso</h3>
+              <p class="text">
+                Coffe the favorite drink of the civilized world
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/front-view-composition-healthy-breakfast-meal-with-yogurt_23-2148894696.jpg?semt=ais_hybrid"
+                alt="Yougurt Taro"
+                class="menu-image"
+              />
+              <h3 class="name">Yogurt Taro</h3>
+              <p class="text">Say yes to more yogurt!</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/fried-beef-steak-wooden-board_140725-9645.jpg?semt=ais_hybrid"
+                alt="Steak Rib Eye"
+                class="menu-image"
+              />
+              <h3 class="name">Steak Rib Eye</h3>
+              <p class="text">Good Food Good Mood!</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/american-fried-rice_1339-4123.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Nasi Goreng Special"
+                class="menu-image"
+              />
+              <h3 class="name">Nasi Goreng Special</h3>
+              <p class="text">Good food is the foundation of happiness.</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="French Fries"
+                class="menu-image"
+              />
+              <h3 class="name">French Fries</h3>
+              <p class="text">Happier than a seagull with a french fry</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/stuffed-beans-with-pork-salted-eggs-asian-cuisine_1150-23682.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Dimsum Hakau"
+                class="menu-image"
+              />
+              <h3 class="name">Dimsum Hakau</h3>
+              <p class="text">Home is wherever i'm with food!.</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/assortment-delicious-tequenos-dish_23-2148945408.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Cheese Roll"
+                class="menu-image"
+              />
+              <h3 class="name">Cheese Roll</h3>
+              <p class="text">Say yes to more cheese.</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="https://img.freepik.com/free-photo/high-angle-arrangement-healthy-breakfast-meal-with-yogurt_23-2148894691.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Manggo Cream"
+                class="menu-image"
+              />
+              <h3 class="name">Manggo Cream</h3>
+              <p class="text">Say yes to more manggo.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="https://img.freepik.com/free-photo/portait-young-handsome-man_1303-9711.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                    alt="user"
+                    class="user image"
+                  />
+                  <h3 class="name">Michelle</h3>
+                  <i class="feedback"
+                    >Loved the french roast. Perfectly balanced and rich. Will
+                    order again!</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="https://img.freepik.com/free-photo/young-man-wearing-chain-necklace_23-2149490502.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                    alt="user"
+                    class="user image"
+                  />
+                  <h3 class="name">Jeffry</h3>
+                  <i class="feedback"
+                    >That cake looks mouth-watering, I have to try a slice!</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="https://img.freepik.com/free-photo/medium-shot-japanese-woman-pose_23-2149032728.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                    alt="user"
+                    class="user image"
+                  />
+                  <h3 class="name">Giselle Stifany</h3>
+                  <i class="feedback">WOW AMAZING!!!</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="https://img.freepik.com/free-photo/lovely-girl-with-nude-makeup-sitting-wooden-table-propping-face-with-hand_197531-4360.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                    alt="user"
+                    class="user image"
+                  />
+                  <h3 class="name">Maria Jolla</h3>
+                  <i class="feedback"
+                    >That cake looks mouth-watering, I have to try a slice!</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="https://img.freepik.com/free-photo/studio-shot-cute-brunette-girl_176420-28629.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                    alt="user"
+                    class="user image"
+                  />
+                  <h3 class="name">Cila Anastasia</h3>
+                  <i class="feedback"
+                    >That beef stew was so hearty, perfect for a cold winter
+                    evening.</i
+                  >
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swipper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/diligent-barista-is-prepairing-fresh-latte-customers-coffee-break-caffeteria_613910-2058.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/hand-pouring-milk-bubble-tea_23-2149870624.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/high-angle-arrangement-healthy-breakfast-meal-with-yogurt_23-2148894691.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/concept-delicious-strawberry-smoothie_23-2148171046.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/ice-falling-brown-drink_1194-1074.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/top-view-chips-with-sauses-bowls-black-stone_176474-1209.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/high-angle-traditional-asian-meal-with-chopsticks_23-2148694371.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/side-view-plate-with-cooked-rice-with-parsley-table_140725-12126.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-tomato-sauce_1150-20208.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="galleri item">
+              <img
+                src="https://img.freepik.com/free-photo/style-still-life-with-noodles-bowl_1150-19765.jpg?ga=GA1.1.1371821697.1735050231&semt=ais_hybrid"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list"></ul>
+          <li class="contact-info">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <p>Jln Iskandar Muda, Neglasari, Tangerang, 15128</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-envelope"></i>
+            <p>info@serenitecoffe.com</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-phone"></i>
+            <p>(+62) 88223999457</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Monday - Saturday: 10:00 AM - 03:00 PM</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Sunday: Closed</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-globe"></i>
+            <p>www.codingnepalweb.com</p>
+          </li>
+        </div>
+      </section>
+    </main>
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
